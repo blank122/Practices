@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+@font-face {
+    font-family: DMSans;
+    src: url(/fonts/dmsans/DMSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: izayoi;
+    src: url(/fonts/izayoi/IzayoiMonospaced.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    text-align: center;
+    position: relative;
+    background-color: #E0EBE8;
+    font-family: 'DMSans', sans-serif;
+    font-weight: 400;
+   
+}
+
+
+h1{
+    color: black;
+}
+
+h2, h3, p{
+    padding: 1.2em;
+    font-size: 600;
+}
+
+h2, h3{
+    font-size: 2.2em;
+}
+
+p{
+    font-size: 1.2em;
+}
+
+
+/**-- Website 1st section --**/
+
+
+.top-container{
+    background-color: #E0EBE8;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-container h1{
+    margin-top: 1.3em;
+    font-family: 'Sacramento', cursive;
+    font-size: 5em;   
+}
+
+.top-container p{
+    font-family: 'DMSans';
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 400px;
+    top: 50px;
+}
+.btm-cloud{
+    position: absolute;
+    left: 400px;
+    bottom: 300px;
+}
+
+
+
+
+/**-- Website 2nd section about me--**/
+
+.middle-container{
+    background-color: #B6FFCE;
+}
+
+.profile{
+    background-color: #F3EFE0;
+    padding: 5rem;
+}
+
+
+.profile img{
+    
+    background-color: black;
+    border-radius: 2em;
+    padding: 1em;
+}
+
+/**-- Website skills section footer--**/
+
+.skill-row img{
+    border-radius: 2em;
+
+}
+
+.skills h2{
+    margin-top: 2em;
+}
+
+
+.skill-row{
+    padding: 2rem;
+}
+
+/**-- Website 3rd section footer--**/
