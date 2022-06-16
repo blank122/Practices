@@ -18,32 +18,35 @@
 }
 
 body{
+    
     text-align: center;
     position: relative;
     background-color: #E0EBE8;
     font-family: 'DMSans', sans-serif;
     font-weight: 400;
-   
+    font-size: 1.2rem;
+    line-height: 1.2;
 }
 
 
-h1{
-    color: black;
-}
 
 h2, h3, p{
-    padding: 1.2em;
+    padding: 1.2rem;
     font-size: 600;
 }
 
 h2, h3{
-    font-size: 2.2em;
+    font-size: 2.2rem;
 }
 
 p{
-    font-size: 1.2em;
+    font-size: 1.2rem;
+    word-spacing: 0.3rem;
 }
 
+table{
+    margin: auto;
+}
 
 /**-- Website 1st section --**/
 
@@ -55,15 +58,16 @@ p{
 }
 
 .top-container h1{
-    margin-top: 1.3em;
+    margin-top: 1.3rem;
     font-family: 'Sacramento', cursive;
-    font-size: 5em;   
+    font-size: 5rem;  
+    color: black; 
 }
 
 .top-container p{
     font-family: 'DMSans';
     font-weight: 500;
-    font-size: 1.2em;
+    font-size: 1.2rem;
 }
 
 .top-cloud{
@@ -83,7 +87,7 @@ p{
 /**-- Website 2nd section about me--**/
 
 .middle-container{
-    background-color: #B6FFCE;
+    border: 1px solid #B6FFCE;
 }
 
 .profile{
@@ -99,15 +103,36 @@ p{
     padding: 1em;
 }
 
+/**-- Website my skills section footer--**/
+.skills-img{
+    height: 362.4px;
+    width: 362.4px;    
+    margin: 1.2rem auto 1.2rem auto;
+    border-radius: 2em;
+    
+
+}
+
+
 /**-- Website skills section footer--**/
+
+.skill-1{
+    background-color: #D3EBCD;
+}
+
+.skill-2{
+    background-color: #B6FFCE;
+}
 
 .skill-row img{
     border-radius: 2em;
 
 }
 
+
 .skills h2{
-    margin-top: 2em;
+    margin: 2em auto 2em auto;
+    
 }
 
 
